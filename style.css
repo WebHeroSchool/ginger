@@ -11,6 +11,8 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+  padding: 85px 0 0;
+  margin-bottom: 85px;
 }
 
 .section {
@@ -23,25 +25,25 @@ body {
 .img {
   display: flex;
   padding-top: 165px;
-  padding-left: 24px;
+  padding-left: 25px;
 }
 
 .img__1 {
-  background: left no-repeat url('img/temple.svg');
+  background: left no-repeat url('img/temple.png');
   height: 422px;
   width: 317px;
   margin-right: 33px;
 }
 .img__2 {
-  background: center no-repeat url('img/mirror.svg');
+  background: center no-repeat url('img/mirror.png');
   height: 380px;
   width: 284px;
   padding-top: 35px;
 }
 .img__3 {
-  background: right no-repeat url('img/jungle.svg');
+  background: right no-repeat url('img/jungle.png');
   height: 380px;
-  width: 254px;
+  width: 242px;
   padding-top: 35px;
 }
 
@@ -58,7 +60,7 @@ body {
   font: bold 98px/130px pt_serifbold, arial, helvetica, sans-serif;
   color: #F8EEE4;
   margin: 0;
-  padding-top: 283px;
+  padding-top: 282px;
   padding-left: 83px;
   max-width: 40%;
 }
@@ -70,7 +72,6 @@ body {
 }
 
 .logo {
-  padding: 85px 0;
   width: 146px;
   height: 55px;
   background: center no-repeat url('img/logo.svg');
@@ -147,27 +148,30 @@ display: none;
     margin-left: 140px;
     width: 84%;
   }
+
+  .header {
+    padding: 63px 0 0;
+    margin-bottom: 63px;
+  }
   .img {
     padding-top: 112px;
     padding-left: 15px;
   }
   .img__1 {
-    background: left no-repeat url('img/temple1366.svg');
     height: 300px;
     width: 226px;
     margin-right: 24px;
   }
   .img__2 {
-    background: center no-repeat url('img/mirror1366.svg');
-    height: 270px;
+    height: 234px;
     width: 202px;
-    padding-top: 30px;
+    margin-right: 24px;
+    margin-top: 16px;
   }
   .img__3 {
-    background: right no-repeat url('img/jungle1366.svg');
-    height: 270px;
-    width: 172px;
-    padding-top: 30px;
+    height: 234px;
+    width: 148px;
+    margin-top: 16px;
   }
   .main__title {
     padding-top: 35px;
@@ -186,10 +190,9 @@ display: none;
     padding-bottom: 6px;
   }
   .logo {
-    padding: 63px 0;
+    background: center no-repeat url('img/logo1366.png');
     width: 104px;
     height: 39px;
-    background: center no-repeat url('img/logo1366.svg');
   }
   .menu__item {
     margin-right: 27px;
@@ -204,8 +207,7 @@ display: none;
 
 @media (max-width: 1024px) {
   body {
-    background: no-repeat url('img/background1024.svg');
-    background-size: cover;
+    background-size: auto;
   }
   .wrapper {
     margin-left: 41px;
@@ -218,21 +220,18 @@ display: none;
     padding-left: 0;
   }
   .img__1 {
-    background: left no-repeat url('img/temple1024.svg');
     height: 300px;
     width: 226px;
     margin-right: 24px;
   }
   .img__2 {
-    background: center no-repeat url('img/mirror1024.svg');
-    height: 270px;
+    height: 240px;
     width: 202px;
     padding-top: 30px;
   }
   .img__3 {
-    background: right no-repeat url('img/jungle1024.svg');
-    height: 270px;
-    width: 64px;
+    height: 240px;
+    width: 40px;
     padding-top: 30px;
   }
 }
@@ -243,16 +242,17 @@ display: none;
   }
   .header {
     margin-bottom: auto;
+    padding: 43px 26px 24px;
   }
   .wrapper {
     margin: auto;
     width: 92%;
   }
-  body {
-    background: no-repeat url('img/backmob.svg');
+  .main {
+    padding: 0;
   }
   .logo {
-    padding: 34px 26px;
+    padding: 0;
   }
   .main__title {
     font: bold 170px/225px pt_serifbold, arial, helvetica, sans-serif;
