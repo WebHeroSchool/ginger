@@ -12,7 +12,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 85px 0 0;
-  margin-bottom: 85px;
+  margin-bottom: 9%;
 }
 
 .section {
@@ -24,8 +24,8 @@ body {
 }
 .img {
   display: flex;
-  padding-top: 165px;
-  padding-left: 25px;
+  padding-top: 106px;
+  padding-left: 28px;
 }
 
 .img__1 {
@@ -48,24 +48,22 @@ body {
 }
 
 .main__title {
-  position: absolute;
-  padding-top: 55px;
-  font: bold 280px/371px pt_serifbold, arial, helvetica, sans-serif;
+  font: bold 280px pt_serifbold, arial, helvetica, sans-serif;
   color: #F8EEE4;
   opacity: 40%;
+  max-width: 100%;
   margin: 0;
-  max-width: 40%;
+  margin-bottom: -150px;
 }
 .title {
-  font: bold 98px/130px pt_serifbold, arial, helvetica, sans-serif;
+  font: bold 98px pt_serifbold, arial, helvetica, sans-serif;
   color: #F8EEE4;
   margin: 0;
-  padding-top: 282px;
-  padding-left: 83px;
-  max-width: 40%;
+  max-width: 100%;
+  padding-left: 80px;
 }
 .main__subtitle {
-  font: 22px/26px museosanscyrl, arial, helvetica, sans-serif;
+  font: 22px museosanscyrl, arial, helvetica, sans-serif;
   color: #F8EEE4;
   padding-left: 22px;
   padding-bottom: 10px;
@@ -85,7 +83,7 @@ body {
 .menu__item {
   position: relative;
   margin-right: 38px;
-  font: 500 22px/26px museosanscyrl, arial, helvetica, sans-serif;
+  font: 500 22px museosanscyrl, arial, helvetica, sans-serif;
   color: #F8EEE4;
   text-decoration: none;
   transition: .5s;
@@ -128,7 +126,7 @@ display: none;
 
 .main__button {
   display: inline-block;
-  font: 22px/26px museosanscyrl, arial, helvetica, sans-serif;
+  font: 22px museosanscyrl, arial, helvetica, sans-serif;
   color: #fff;
   padding: 18px 92px;
   background: #D4BEA3;
@@ -151,10 +149,10 @@ display: none;
 
   .header {
     padding: 63px 0 0;
-    margin-bottom: 63px;
+    margin-bottom: 96px;
   }
   .img {
-    padding-top: 112px;
+    padding-top: 79px;
     padding-left: 15px;
   }
   .img__1 {
@@ -174,20 +172,19 @@ display: none;
     margin-top: 16px;
   }
   .main__title {
-    padding-top: 35px;
-    font: bold 200px/265px pt_serifbold, arial, helvetica, sans-serif;
-    max-width: 40%;
+    font: bold 200px pt_serifbold, arial, helvetica, sans-serif;
+    max-width: 100%;
+    margin-bottom: -105px;
   }
   .title {
-    font: bold 70px/93px pt_serifbold, arial, helvetica, sans-serif;
-    padding-top: 195px;
+    font: bold 70px pt_serifbold, arial, helvetica, sans-serif;
     padding-left: 61px;
-    max-width: 40%;
+    max-width: 100%;
   }
   .main__subtitle {
-    font: 16px/19px museosanscyrl, arial, helvetica, sans-serif;
+    font: 16px museosanscyrl, arial, helvetica, sans-serif;
     padding-left: 20px;
-    padding-bottom: 6px;
+    padding-bottom: 9px;
   }
   .logo {
     background: center no-repeat url('img/logo1366.png');
@@ -196,10 +193,10 @@ display: none;
   }
   .menu__item {
     margin-right: 27px;
-    font: 500 16px/19px museosanscyrl, arial, helvetica, sans-serif;
+    font: 500 16px museosanscyrl, arial, helvetica, sans-serif;
   }
   .main__button {
-    font: 16px/19px museosanscyrl, arial, helvetica, sans-serif;
+    font: 16px museosanscyrl, arial, helvetica, sans-serif;
     padding: 12px 65px;
     margin-left: 18px;
   }
@@ -217,7 +214,8 @@ display: none;
     padding-right: 8%;
   }
   .img {
-    padding-left: 0;
+    padding-left: 2px;
+    padding-top: 81px;
   }
   .img__1 {
     height: 300px;
@@ -234,6 +232,11 @@ display: none;
     width: 40px;
     padding-top: 30px;
   }
+  .main__subtitle {
+    font: 16px museosanscyrl, arial, helvetica, sans-serif;
+    padding-left: 16px;
+    padding-bottom: 12px;
+  }
 }
 
 @media (max-width: 375px) {
@@ -241,33 +244,46 @@ display: none;
     display: none;
   }
   .header {
-    margin-bottom: auto;
-    padding: 43px 26px 24px;
+    margin-bottom: 57px;
+    padding: 43px 26px 0;
+    width: 86%;
   }
   .wrapper {
     margin: auto;
     width: 92%;
   }
   .main {
+    text-align: center;
     padding: 0;
   }
   .logo {
     padding: 0;
   }
   .main__title {
-    font: bold 170px/225px pt_serifbold, arial, helvetica, sans-serif;
+    font: bold 170px pt_serifbold, arial, helvetica, sans-serif;
+    width: 100%;
+    margin-bottom: -77px;
+    margin-left: -12px;
   }
   .title {
-    font: bold 60px/79px pt_serifbold, arial, helvetica, sans-serif;
-    padding-top: 181px;
+    font: bold 60px pt_serifbold, arial, helvetica, sans-serif;
+    margin-bottom: 39px;
   }
   .main__subtitle {
-    font: 18px/22px museosanscyrl, arial, helvetica, sans-serif;
-    padding-bottom: 17px;
-    padding-top: 18px;
+    font: 18px museosanscyrl, arial, helvetica, sans-serif;
+    margin-bottom: 17px;
     padding-left: 0;
     text-align: center;
     width: 84%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+  .main__button {
+    margin-left: -13px;
+  }
+  .hamburger-menu {
+  position: relative;
+  width: 20px;
   }
   .menu__item {
     display: none;
@@ -280,10 +296,11 @@ display: none;
   .menu__btn > span::after {
     display: block;
     position: absolute;
-    width: 100%;
+    width: 115%;
     height: 3px;
     background-color: #FCF5ED;
     transition-duration: .25s;
+    z-index: 2;
   }
   .menu__btn > span::before {
     content: '';
@@ -297,12 +314,13 @@ display: none;
     display: block;
     position: fixed;
     visibility: hidden;
+    z-index: 1;
     top: 0;
     right: -100%;
     width: 100%;
     height: 100%;
     margin: 0;
-    padding: 30% 0;
+    padding: 29% 0;
     list-style: none;
     text-align: center;
     background-color: #fff;
@@ -317,9 +335,9 @@ display: none;
     justify-content: center;
     flex-direction: column;
     position: relative;
-    margin: 25px 0;
+    margin: 26px 0;
     color: #000;
-    font: 500 30px/35px museosanscyrl, arial, helvetica, sans-serif;
+    font: 500 30px museosanscyrl, arial, helvetica, sans-serif;
     text-decoration: none;
   }
   .menu__item:first-child {
@@ -339,14 +357,17 @@ display: none;
   }
   #menu__toggle:checked ~ .menu__btn > span {
     transform: rotate(45deg);
+    background-color: #000;
   }
   #menu__toggle:checked ~ .menu__btn > span::before {
     top: 0;
     transform: rotate(0);
+    background-color: #000;
   }
   #menu__toggle:checked ~ .menu__btn > span::after {
     top: 0;
     transform: rotate(90deg);
+    background-color: #000;
   }
   #menu__toggle:checked ~ .menu__box {
     visibility: visible;
