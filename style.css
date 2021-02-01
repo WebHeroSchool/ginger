@@ -15,11 +15,11 @@ body {
   margin-bottom: 9%;
 }
 
-.section {
+.main {
   display: flex;
 }
 
-.main {
+.section {
   padding-right: 17%;
 }
 .img {
@@ -210,7 +210,7 @@ display: none;
     margin-left: 41px;
     width: 92%;
   }
-  .main {
+  .section {
     padding-right: 8%;
   }
   .img {
@@ -252,7 +252,7 @@ display: none;
     margin: auto;
     width: 92%;
   }
-  .main {
+  .section {
     text-align: center;
     padding: 0;
   }
