@@ -6,44 +6,46 @@ body {
 
 .wrapper {
   margin-left: 200px;
-  width: 83%;
 }
 .header {
   display: flex;
   justify-content: space-between;
   padding: 85px 0 0;
-  margin-bottom: 9%;
+  margin-bottom: 8%;
+  width: 93%;
 }
 
 .main {
   display: flex;
+  justify-content: space-between;
 }
 
 .section {
-  padding-right: 17%;
+  width: 33%;
 }
 .img {
   display: flex;
-  padding-top: 106px;
-  padding-left: 28px;
+  padding-top: 111px;
+  width: 51%;
 }
 
 .img__1 {
   background: left no-repeat url('img/temple.png');
-  height: 422px;
-  width: 317px;
+  height: 39vh;
+  width: 46%;
   margin-right: 33px;
 }
 .img__2 {
   background: center no-repeat url('img/mirror.png');
-  height: 380px;
-  width: 284px;
+  height: 35vh;
+  width: 39%;
   padding-top: 35px;
+  margin-right: 20px;
 }
 .img__3 {
   background: right no-repeat url('img/jungle.png');
-  height: 380px;
-  width: 242px;
+  height: 35vh;
+  width: 32%;
   padding-top: 35px;
 }
 
@@ -144,31 +146,32 @@ display: none;
 @media (max-width: 1366px) {
   .wrapper {
     margin-left: 140px;
-    width: 84%;
   }
-
+  .section {
+    width: 34%;
+  }
   .header {
     padding: 63px 0 0;
     margin-bottom: 96px;
+    width: 93%;
   }
   .img {
     padding-top: 79px;
-    padding-left: 15px;
   }
   .img__1 {
-    height: 300px;
-    width: 226px;
-    margin-right: 24px;
+    height: 39vh;
+    width: 36%;
+    margin-right: 23px;
   }
   .img__2 {
-    height: 234px;
-    width: 202px;
+    height: 30vh;
+    width: 33%;
     margin-right: 24px;
     margin-top: 16px;
   }
   .img__3 {
-    height: 234px;
-    width: 148px;
+    height: 30vh;
+    width: 24%;
     margin-top: 16px;
   }
   .main__title {
@@ -208,29 +211,31 @@ display: none;
   }
   .wrapper {
     margin-left: 41px;
-    width: 92%;
+  }
+  .header {
+    width: 96%;
   }
   .section {
-    padding-right: 8%;
+    width: 40%;
   }
   .img {
-    padding-left: 2px;
     padding-top: 81px;
+    width: 52%;
   }
   .img__1 {
-    height: 300px;
-    width: 226px;
-    margin-right: 24px;
+    height: 39vh;
+    width: 72%;
+    margin-right: 26px;
   }
   .img__2 {
-    height: 240px;
-    width: 202px;
-    padding-top: 30px;
+    height: 31vh;
+    width: 64%;
+    margin-top: 12px;
   }
   .img__3 {
-    height: 240px;
-    width: 40px;
-    padding-top: 30px;
+    height: 31vh;
+    width: 12%;
+    margin-top: 12px;
   }
   .main__subtitle {
     font: 16px museosanscyrl, arial, helvetica, sans-serif;
@@ -255,6 +260,7 @@ display: none;
   .section {
     text-align: center;
     padding: 0;
+    width: 100%;
   }
   .logo {
     padding: 0;
