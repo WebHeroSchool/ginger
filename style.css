@@ -1,7 +1,7 @@
 body {
   margin: 0;
   background: no-repeat url('img/background.svg');
-  background-size: cover;
+  background-size: auto;
 }
 
 .wrapper {
@@ -144,6 +144,9 @@ display: none;
 
 
 @media (max-width: 1366px) {
+  body {
+    background-size: auto;
+  }
   .wrapper {
     margin-left: 140px;
   }
@@ -244,7 +247,7 @@ display: none;
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 845px) {
   .img {
     display: none;
   }
